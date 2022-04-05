@@ -1,5 +1,5 @@
 import React from 'react'
-import Task from '../assets/task.jpg'
+import DashBoard from '../assets/dashboard.png'
 import Login from '../assets/login-scrnsht.png'
 import CodeQuiz from '../assets/code-quiz.png'
 
@@ -17,7 +17,7 @@ const Work = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                     {/* Card Item */}
-                    <div style={{ backgroundImage: `url(${Task})`}}
+                    <div style={{ backgroundImage: `url(${CodeQuiz})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto card-item'>
 
                         {/* Hover Effect */}
@@ -26,10 +26,10 @@ const Work = () => {
                                 JavaScript Application
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://burnsd.github.io/coding-quiz/endquiz.html">
                                     <button className='text-center rounded-lg px4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/BurnsD/coding-quiz">
                                     <button className='text-center rounded-lg px4 py-3 m-2 bg-white text-gray-700 font-bold '>Code</button>
                                 </a>
                             </div>
@@ -45,17 +45,17 @@ const Work = () => {
                                 JavaScript Application
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://enigmatic-cove-92029.herokuapp.com/">
                                     <button className='text-center rounded-lg px4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/BurnsD/Ice-cream-store-blog">
                                     <button className='text-center rounded-lg px4 py-3 m-2 bg-white text-gray-700 font-bold '>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                     {/* Card Item */}
-                    <div style={{ backgroundImage: `url(${CodeQuiz})`}}
+                    <div style={{ backgroundImage: `url(${DashBoard})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto card-item'>
 
                         {/* Hover Effect */}
@@ -64,10 +64,10 @@ const Work = () => {
                                 JavaScript Application
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://burnsd.github.io/weather-dashboard/">
                                     <button className='text-center rounded-lg px4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/BurnsD/weather-dashboard">
                                     <button className='text-center rounded-lg px4 py-3 m-2 bg-white text-gray-700 font-bold '>Code</button>
                                 </a>
                             </div>
