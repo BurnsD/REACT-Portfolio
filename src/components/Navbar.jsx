@@ -95,26 +95,26 @@ export const Navbar = () => {
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-blue-600'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                            href="/">
+                            href="https://www.linkedin.com/in/dustin-burns-b176b1226/">
                             Linkedin <FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-gray-600'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                            href="/">
+                            href="https://github.com/BurnsD">
                             GitHub <FaGithub size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#6fc2b0]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
                             href="/">
-                            Resume <HiOutlineMail size={30} />
+                            Email <HiOutlineMail size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#565f69]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
                             href="/">
-                            Linkedin <BsFillPersonLinesFill size={30} />
+                            Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
                 </ul>
