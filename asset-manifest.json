@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shiny-broccoli/static/css/main.930b67c5.css",
+    "main.js": "/shiny-broccoli/static/js/main.9dd3acb6.js",
+    "static/media/login-scrnsht.png": "/shiny-broccoli/static/media/login-scrnsht.302e3e554658b9f62e0c.png",
+    "static/media/dashboard.png": "/shiny-broccoli/static/media/dashboard.28f7f102ff9357075fd5.png",
+    "static/media/logo.png": "/shiny-broccoli/static/media/logo.cb165f9f6be2f4b1bf04.png",
+    "static/media/react.png": "/shiny-broccoli/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/mongo.png": "/shiny-broccoli/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/code-quiz.png": "/shiny-broccoli/static/media/code-quiz.b0b6a5a9841b1111245e.png",
+    "static/media/html.png": "/shiny-broccoli/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/shiny-broccoli/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/shiny-broccoli/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/shiny-broccoli/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/shiny-broccoli/index.html",
+    "main.930b67c5.css.map": "/shiny-broccoli/static/css/main.930b67c5.css.map",
+    "main.9dd3acb6.js.map": "/shiny-broccoli/static/js/main.9dd3acb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.930b67c5.css",
+    "static/js/main.9dd3acb6.js"
+  ]
+}
