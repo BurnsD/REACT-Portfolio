@@ -52,7 +52,6 @@ export const Navbar = () => {
                     <a href="/">Home</a>
                 </li>
                 <li className='py-6 text-4xl'>
-                    {' '}
                     <a href="/about">About</a>
                 </li>
                 <li className='py-6 text-4xl'>
