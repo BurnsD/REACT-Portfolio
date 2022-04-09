@@ -14,14 +14,13 @@ const About = () => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, expedita.</p>
+                        <p>Transitioning Full Time into the Tech World</p>
                     </div>
                     <div>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem in labore
-                            maiores! Provident optio quisquam quis? Magnam aspernatur sequi fuga sapiente
-                            consequuntur nobis necessitatibus pariatur totam. Harum blanditiis corporis dolore.
-                            Lorem ipsum dolor sit amet.</p>
+                            I've always had a niche for building things within the material world. Now I am following my love for technology and taking that thought process into the digital world.
+                            Learning a variety of languages and technologies, I can help build your application from the ground up or be a asset to any development team.
+                            </p>
                     </div>
                 </div>
             </div>

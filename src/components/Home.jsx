@@ -10,7 +10,7 @@ const Home = () => {
     useEffect(() => {
         const timeout = setTimeout(() => {
             setTypedDescription(description.slice(0, typedDescription.length + 1))
-        }, 300)
+        }, 175)
 
         return () => clearTimeout(timeout)
     }, [typedDescription])
@@ -22,9 +22,8 @@ const Home = () => {
                 <p className='text-yellow-300'>Howdy, my name is</p>
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Dustin Burns</h1>
                 <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0] blinking-cursor'>{typedDescription}</h2>
-                <p className='text-[#8892b0] py-4 max-w-[700px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil delectus, est
-                    odit culpa pariatur aperiam impedit a atque animi, nobis laboriosam cupiditate
-                    consequatur enim, quod aliquam. At ducimus sed laudantium!</p>
+                <p className='text-[#8892b0] py-4 max-w-[700px]'>Ability to make your application to come to life from the ground up! I am currently looking for an opportunity to apply creative, analytical, and communicative skills on a development team.
+                You can find some of my previous projects below or through this link. </p>
                 <div>
                     <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600'>
                         <Link to='work' smooth={true} duration={500}>
