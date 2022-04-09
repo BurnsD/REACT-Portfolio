@@ -19,7 +19,7 @@ const About = () => {
                     <div>
                         <p>
                             I've always had a niche for building things within the material world. Now I am following my love for technology and taking that thought process into the digital world.
-                            Learning a variety of languages and technologies, I can help build your application from the ground up or be a asset to any development team.
+                            Learning a variety of languages and technologies, I can help build your application from the ground up or be an asset to any development team.
                             </p>
                     </div>
                 </div>

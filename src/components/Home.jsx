@@ -22,7 +22,7 @@ const Home = () => {
                 <p className='text-yellow-300'>Howdy, my name is</p>
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Dustin Burns</h1>
                 <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0] blinking-cursor'>{typedDescription}</h2>
-                <p className='text-[#8892b0] py-4 max-w-[700px]'>Ability to make your application to come to life from the ground up! I am currently looking for an opportunity to apply creative, analytical, and communicative skills on a development team.
+                <p className='text-[#8892b0] py-4 max-w-[700px]'>Ability to make your application come to life from the ground up! I am currently looking for an opportunity to apply creative, analytical, and communicative skills on a development team.
                     You can find some of my previous projects below or through this link. </p>
                 <div>
                     <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600'>
