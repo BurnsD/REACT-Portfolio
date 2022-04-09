@@ -3,14 +3,18 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from 'react-scroll';
 import { useState } from 'react';
 
-const description = 'Full Stack Developer'
+const description = ['Front-End', 'Back-End','Full Stack Developer']
+
 
 const Home = () => {
     const [typedDescription, setTypedDescription] = useState('')
     useEffect(() => {
+        const nextTypedDescription = description[0].slice(0, typedDescription.length + 1)
+
+        if (nextTypedDescription === typedDescription) return
         const timeout = setTimeout(() => {
-            setTypedDescription(description.slice(0, typedDescription.length + 1))
-        }, 300)
+            setTypedDescription(description[0].slice(0, typedDescription.length + 1))
+        }, 250)
 
         return () => clearTimeout(timeout)
     }, [typedDescription])
