@@ -2,10 +2,11 @@ import React from 'react'
 import DashBoard from '../assets/dashboard.png'
 import Login from '../assets/login-scrnsht.png'
 import CodeQuiz from '../assets/code-quiz.png'
+import Background from '../assets/background2.jpg'
 
 const Work = () => {
     return (
-        <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+        <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]' style={{ backgroundImage: `url(${Background})`}}>
             {/* Contianer */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
