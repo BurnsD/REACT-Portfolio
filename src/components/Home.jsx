@@ -1,23 +1,12 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from 'react-scroll';
-import { useState } from 'react';
+import { useTypedDescription } from './useTypedDescription'
 
-const description = ['Front-End', 'Back-End','Full Stack Developer']
-
+const descriptions = ['Front-End', 'Back-End','Full Stack Developer']
 
 const Home = () => {
-    const [typedDescription, setTypedDescription] = useState('')
-    useEffect(() => {
-        const nextTypedDescription = description[0].slice(0, typedDescription.length + 1)
-
-        if (nextTypedDescription === typedDescription) return
-        const timeout = setTimeout(() => {
-            setTypedDescription(description[0].slice(0, typedDescription.length + 1))
-        }, 250)
-
-        return () => clearTimeout(timeout)
-    }, [typedDescription])
+    const description = useTypedDescription(descriptions)
 
     return (
         <div name='home' className='w-full h-screen bg-[#0a192f]'>
@@ -25,7 +14,7 @@ const Home = () => {
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <p className='text-yellow-300'>Howdy, my name is</p>
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Dustin Burns</h1>
-                <span className='text-4xl sm:text-7xl font-bold text-[#8892b0] blinking-cursor'>{typedDescription}</span>
+                <span className='text-4xl sm:text-7xl font-bold text-[#8892b0] blinking-cursor'>{description}</span>
                 <p className='text-[#8892b0] py-4 max-w-[700px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil delectus, est
                     odit culpa pariatur aperiam impedit a atque animi, nobis laboriosam cupiditate
                     consequatur enim, quod aliquam. At ducimus sed laudantium!</p>
