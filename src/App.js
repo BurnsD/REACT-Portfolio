@@ -6,7 +6,6 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import {Routes, Route} from 'react-router-dom';
 
-
 function App() {
   return (
     <>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from 'react-scroll';
-import { useTypedDescription } from './useTypedDescription'
+import { useTypedDescription } from './useTypedDescription.tsx'
 
 const descriptions = ['Front-End', 'Back-End','Full Stack Developer']
 
