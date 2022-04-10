@@ -1,25 +1,28 @@
 {
   "files": {
     "main.css": "/shiny-broccoli/static/css/main.d6c584ae.css",
-    "main.js": "/shiny-broccoli/static/js/main.216a82d9.js",
+    "main.js": "/shiny-broccoli/static/js/main.8b467733.js",
     "static/media/background.jpg": "/shiny-broccoli/static/media/background.61d4f5f8620bc408f51a.jpg",
     "static/media/login-scrnsht.png": "/shiny-broccoli/static/media/login-scrnsht.302e3e554658b9f62e0c.png",
+    "static/media/office.jpg": "/shiny-broccoli/static/media/office.b31684f35a3899455d51.jpg",
+    "static/media/social.jpg": "/shiny-broccoli/static/media/social.1507fcf7f87e539207d7.jpg",
     "static/media/background2.jpg": "/shiny-broccoli/static/media/background2.d8efd0ad65e403b11ab3.jpg",
     "static/media/dashboard.png": "/shiny-broccoli/static/media/dashboard.28f7f102ff9357075fd5.png",
     "static/media/logo.png": "/shiny-broccoli/static/media/logo.cb165f9f6be2f4b1bf04.png",
     "static/media/react.png": "/shiny-broccoli/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/mongo.png": "/shiny-broccoli/static/media/mongo.2a1528ddc31d4ce8518d.png",
     "static/media/code-quiz.png": "/shiny-broccoli/static/media/code-quiz.b0b6a5a9841b1111245e.png",
+    "static/media/note-home.png": "/shiny-broccoli/static/media/note-home.bd397d33d2d6ff77d4e4.png",
     "static/media/html.png": "/shiny-broccoli/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/shiny-broccoli/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/shiny-broccoli/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/shiny-broccoli/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/shiny-broccoli/index.html",
     "main.d6c584ae.css.map": "/shiny-broccoli/static/css/main.d6c584ae.css.map",
-    "main.216a82d9.js.map": "/shiny-broccoli/static/js/main.216a82d9.js.map"
+    "main.8b467733.js.map": "/shiny-broccoli/static/js/main.8b467733.js.map"
   },
   "entrypoints": [
     "static/css/main.d6c584ae.css",
-    "static/js/main.216a82d9.js"
+    "static/js/main.8b467733.js"
   ]
 }
