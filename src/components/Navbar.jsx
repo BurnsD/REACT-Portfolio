@@ -4,6 +4,9 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Logo from '../assets/logo.png'
 import { Link } from 'react-scroll'
+// import Resume from '../assets/Resume.PDF'
+// import { saveAs } from 'file-saver'
+// import { saveFile } from './SaveFile'
 
 export const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -111,12 +114,13 @@ export const Navbar = () => {
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#565f69]'>
-                        <a className='flex justify-between items-center w-full text-gray-300'
-                            href="/">
+                   
+                    {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#565f69]'>
+                        <button className='flex justify-between items-center w-full text-gray-300' href='/'
+                             onClick={saveFile}>
                             Resume <BsFillPersonLinesFill size={30} />
-                        </a>
-                    </li>
+                        </button>
+                    </li> */}
                 </ul>
             </div>
         </div>
