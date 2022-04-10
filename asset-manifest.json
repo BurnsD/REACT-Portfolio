@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shiny-broccoli/static/css/main.d6c584ae.css",
-    "main.js": "/shiny-broccoli/static/js/main.8b467733.js",
+    "main.css": "/shiny-broccoli/static/css/main.16ce1332.css",
+    "main.js": "/shiny-broccoli/static/js/main.f3d3c53a.js",
     "static/media/background.jpg": "/shiny-broccoli/static/media/background.61d4f5f8620bc408f51a.jpg",
     "static/media/login-scrnsht.png": "/shiny-broccoli/static/media/login-scrnsht.302e3e554658b9f62e0c.png",
     "static/media/office.jpg": "/shiny-broccoli/static/media/office.b31684f35a3899455d51.jpg",
@@ -18,11 +18,11 @@
     "static/media/css.png": "/shiny-broccoli/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/shiny-broccoli/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/shiny-broccoli/index.html",
-    "main.d6c584ae.css.map": "/shiny-broccoli/static/css/main.d6c584ae.css.map",
-    "main.8b467733.js.map": "/shiny-broccoli/static/js/main.8b467733.js.map"
+    "main.16ce1332.css.map": "/shiny-broccoli/static/css/main.16ce1332.css.map",
+    "main.f3d3c53a.js.map": "/shiny-broccoli/static/js/main.f3d3c53a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6c584ae.css",
-    "static/js/main.8b467733.js"
+    "static/css/main.16ce1332.css",
+    "static/js/main.f3d3c53a.js"
   ]
 }
