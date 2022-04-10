@@ -28,10 +28,10 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://burnsd.github.io/coding-quiz/endquiz.html">
-                                    <button className='text-center rounded-lg px4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-indigo-300 text-white font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href="https://github.com/BurnsD/coding-quiz">
-                                    <button className='text-center rounded-lg px4 py-3 m-2 bg-white text-gray-700 font-bold '>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-indigo-300 text-white font-bold '>Code</button>
                                 </a>
                             </div>
                         </div>
@@ -47,10 +47,10 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://enigmatic-cove-92029.herokuapp.com/">
-                                    <button className='text-center rounded-lg px4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-indigo-300 text-white font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href="https://github.com/BurnsD/Ice-cream-store-blog">
-                                    <button className='text-center rounded-lg px4 py-3 m-2 bg-white text-gray-700 font-bold '>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-indigo-300 text-white font-bold '>Code</button>
                                 </a>
                             </div>
                         </div>
@@ -66,10 +66,10 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://burnsd.github.io/weather-dashboard/">
-                                    <button className='text-center rounded-lg px4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-indigo-300 text-white font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href="https://github.com/BurnsD/weather-dashboard">
-                                    <button className='text-center rounded-lg px4 py-3 m-2 bg-white text-gray-700 font-bold '>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-indigo-300 text-white font-bold '>Code</button>
                                 </a>
                             </div>
                         </div>
