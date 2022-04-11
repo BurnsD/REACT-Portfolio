@@ -1,6 +1,6 @@
 import React from 'react'
 import Background from '../assets/background.jpg'
-import { HiArrowNarrowRight } from 'react-icons/hi'
+// import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from 'react-scroll';
 import { useState, useEffect } from 'react';
 

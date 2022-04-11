@@ -1,9 +1,9 @@
 import React from 'react'
-import DashBoard from '../assets/dashboard.png'
+import DashBoard from '../assets/weather.jpeg'
 import Login from '../assets/login-scrnsht.png'
-import CodeQuiz from '../assets/code-quiz.png'
+import CodeQuiz from '../assets/code-quiz.jpg'
 import Background from '../assets/background2.jpg'
-import Note from '../assets/note-home.png'
+import Note from '../assets/note-home.jpg'
 import Social from '../assets/social.jpg'
 import Office from '../assets/office.jpg'
 
