@@ -1,7 +1,7 @@
 import React from 'react'
 import DashBoard from '../assets/weather.jpeg'
 import Login from '../assets/login-scrnsht.png'
-import CodeQuiz from '../assets/code-quiz.jpg'
+import Huntress from '../assets/banner-h.jpeg'
 import Background from '../assets/background2.jpg'
 import Note from '../assets/note-home.jpg'
 import Social from '../assets/social.jpg'
@@ -21,19 +21,19 @@ const Work = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                     {/* Card Item */}
-                    <div style={{ backgroundImage: `url(${CodeQuiz})`}}
+                    <div style={{ backgroundImage: `url(${Huntress})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto card-item'>
 
                         {/* Hover Effect */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Code Quiz Game
+                                Huntress Handcrafted E-commerce
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://burnsd.github.io/coding-quiz/endquiz.html">
+                                <a href="https://huntress-handcrafted.herokuapp.com/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-indigo-300 text-white font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/BurnsD/coding-quiz">
+                                <a href="https://github.com/BurnsD/HuntressHandcraftedSoap">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-indigo-300 text-white font-bold '>Code</button>
                                 </a>
                             </div>
