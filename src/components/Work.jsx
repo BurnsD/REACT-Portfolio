@@ -1,7 +1,7 @@
 import React from 'react'
 import DashBoard from '../assets/weather.jpeg'
 import Login from '../assets/login-scrnsht.png'
-import Huntress from '../assets/banner-h.jpeg'
+import CodeQ from '../assets/code-quiz.jpg'
 import Background from '../assets/background2.jpg'
 import Note from '../assets/note-home.jpg'
 import Social from '../assets/social.jpg'
@@ -21,7 +21,7 @@ const Work = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                     {/* Card Item */}
-                    <div style={{ backgroundImage: `url(${Huntress})`}}
+                    <div style={{ backgroundImage: `url(${CodeQ})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto card-item'>
 
                         {/* Hover Effect */}
@@ -30,10 +30,10 @@ const Work = () => {
                                 Huntress Handcrafted E-commerce
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://huntress-handcrafted.herokuapp.com/">
+                                <a href="https://burnsd.github.io/coding-quiz/endquiz.html">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-indigo-300 text-white font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/BurnsD/HuntressHandcraftedSoap">
+                                <a href="https://github.com/BurnsD/coding-quiz">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-indigo-300 text-white font-bold '>Code</button>
                                 </a>
                             </div>
