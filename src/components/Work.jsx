@@ -65,13 +65,13 @@ const Work = () => {
                         {/* Hover Effect */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Weather Dashboard
+                               Mobile Weather App
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://burnsd.github.io/weather-dashboard/">
+                                <a href="https://github.com/BurnsD/react-weather">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-indigo-300 text-white font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/BurnsD/weather-dashboard">
+                                <a href="https://burnsd.github.io/react-weather/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-indigo-300 text-white font-bold '>Code</button>
                                 </a>
                             </div>
